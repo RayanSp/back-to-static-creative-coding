@@ -37,7 +37,6 @@
 
 <main>
     <LayoutView {filteredWishes} {searchInput} {searchWishes} />
-
     <section id="custom-view" class="grid-overview wishes">
         <article>
             {#each filteredWishes as wish}
